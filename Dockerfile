@@ -34,7 +34,7 @@ RUN Rscript requirements.R
 
 RUN Rscript requirements_bio.R
 
-COPY single-cell-tutorial/latest_notebook/Case-study_Mouse-intestinal-epithelium_1906.ipynb /sc-tutorial/Case-study_Mouse-intestinal-epithelium_1906.ipynb
+#COPY single-cell-tutorial/latest_notebook/Case-study_Mouse-intestinal-epithelium_1906.ipynb /sc-tutorial/Case-study_Mouse-intestinal-epithelium_1906.ipynb
 
 RUN apt-get install -y git cmake
 
